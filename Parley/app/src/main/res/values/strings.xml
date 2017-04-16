@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Parley</string>
+    <string name="userId">userId</string>
+    <string name="password">password</string>
+    <string name="displayName">displayName</string>
+    <string name="token">token</string>
+    <string name="isLoggedIn">isLoggedIn</string>
+    <string name="isSetup">isSetup</string>
+    <string name="preferencesFile">userInfo</string>
+    <string name="users">users</string>
+    <string name="fireBaseBundle">gs://parley-df730.appspot.com</string>
+    <string name="profilePictures">profilePictures</string>
+    <string name="logout">Log Out</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="chats">chats</string>
+    <string name="topic">topic</string>
+    <string name="members">members</string>
+    <string name="messages">messages</string>
+</resources>

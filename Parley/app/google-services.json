@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "144296379768",
+    "firebase_url": "https://parley-df730.firebaseio.com",
+    "project_id": "parley-df730",
+    "storage_bucket": "parley-df730.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144296379768:android:aaeba645d8d9184f",
+        "android_client_info": {
+          "package_name": "com.talhaamin.parley"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144296379768-8eao9u4l8nandd0mcp7e1f473h0kn39a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWc3w8I7LI5pj81f3K8Ksju66vFmmPaIM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

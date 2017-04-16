@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.talhaamin.parley.MainActivity"
+    android:background="@color/launchscreen">
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:id="@+id/edtPhone"
+        android:hint="Enter Phone Number"
+        android:background="@drawable/rounded_corner_edittext"
+        android:textAlignment="center"
+        android:elevation="6dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        android:layout_marginTop="16dp"
+        android:inputType="number" />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:id="@+id/edtPassword"
+        android:inputType="textPassword"
+        android:layout_below="@id/edtPhone"
+        android:hint="Enter Password"
+        android:background="@drawable/rounded_corner_edittext"
+        android:elevation="6dp"
+        android:textAlignment="center"
+        app:layout_constraintRight_toRightOf="@+id/edtPhone"
+        app:layout_constraintLeft_toLeftOf="@+id/edtPhone"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/edtPhone" />
+        "/>
+
+    <Button
+        android:text="Register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRegister"
+        android:layout_below="@id/edtPassword"
+        android:background="@drawable/button_shape"
+        android:layout_alignBaseline="@+id/btnLogin"
+        android:layout_alignBottom="@+id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickRegister"
+        tools:onClick="onClickRegister"
+        app:layout_constraintRight_toRightOf="@+id/btnLogin"
+        app:layout_constraintLeft_toLeftOf="@+id/btnLogin"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:text="Login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:onClick="onClickLogin"
+        tools:onClick="onClickLogin"
+        android:layout_below="@+id/edtPassword"
+        android:layout_toLeftOf="@+id/btnRegister"
+        android:background="@drawable/button_shape"
+        app:layout_constraintRight_toRightOf="@+id/edtPassword"
+        app:layout_constraintLeft_toLeftOf="@+id/edtPassword"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/edtPassword"
+        android:textColor="@android:color/background_light" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/parley_logo"
+        android:id="@+id/imageView2"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>
